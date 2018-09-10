@@ -1,0 +1,280 @@
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    color: black;
+   overflow-x: hidden;
+  background-color:white;
+        
+}
+
+
+/*---------------------------------
+    header
+-----------------------------------*/
+header{
+    background-color: #1193d4;
+    color: white;
+
+}
+
+
+
+/*---------------------------------
+    2.1 nav AREA
+-----------------------------------*/
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    padding: 11px;
+    border-radius: 1px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 7px 15px;
+
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #edeff5;
+    margin-right: 30px;
+    font-size: 16px;
+    transition: all 0.3 ease-in-out 0;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:#e13557;
+    font-size: 18px;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: black;
+}
+
+
+
+/*---------------------------------
+   main
+-----------------------------------*/
+#main{
+      padding-top: 13%;
+        margin-left: 2%;
+    
+}
+
+#main a{
+    text-decoration: none;
+}
+
+#main a:hover{
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out 0s;
+    background-color:#1193d4;
+}
+
+#main p{
+    padding-bottom: 34px;
+}
+
+
+.wave{
+    background-image: url(../images/home-wave.svg);
+    background-size: cover;
+    height: 100px;
+    animation-name: wave;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+    
+    
+}
+
+@keyframes wave {
+   0% { transform: translate(-90px , 0%) }
+  100% { transform: translate(85px , 0%) }
+}
+
+h1{
+    font-size:35px;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 31px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 3em;;
+}
+
+
+h3{
+    color: black;
+    text-align: center;
+    width: 50%;
+}
+
+p{
+    text-align: justify;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.fas{
+    text-align: center;
+    border: 2px solid #e13557;
+    border-style: dashed;
+    font-size: 26px;
+    padding: 10px;
+}
+
+h2 span{
+    color: #1193d4;
+}
+
+hr{
+    width: 45%;
+    border: 1px crimson;
+    border-style: dashed;
+}
+
+/*---------------------------------
+ container
+-----------------------------------*/
+.font{
+    text-align: center;
+}
+.container{
+    padding-top: 30px;
+}
+
+.font p{
+    text-align: justify;
+    margin-left: 17px;
+}
+
+.read-more{
+     border: 2px solid #48acde;
+     padding: 20px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 10px;
+   text-decoration: none;
+   margin-top: 20px;
+}
+.one{
+    margin: 30px 12px;
+}
+
+/*---------------------------------
+    video
+-----------------------------------*/
+#video{
+    background-color:#f2f2f2;
+    padding-top: 20px;
+
+}
+
+#video h2{
+    font-size: 40px;
+    color:black;
+    font-family: inherit;
+    text-align: left;
+    margin: 40px;
+}
+
+#video p{
+    text-align: justify;
+    font-size: 16px;
+    margin: 20px;
+    color:black;
+    
+}
+
+.btn-lg{
+    margin-left: 13%;
+}
+
+#area-bg{
+       background: rgba(0, 0, 0, 0) linear-gradient(1deg, transparent 53%, #1193d4 96%) repeat scroll 0 0;
+    opacity: 0.9;
+}
+
+/*---------------------------------
+ media screen
+-----------------------------------*/
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+     header{
+        background: none;
+        overflow: hidden;
+    }
+    
+    
+}
+
+/*---------------------------------
+ phone screen
+-----------------------------------*/
+@media only screen and (max-width: 500px){
+    
+  .navbar-inverse {
+    background-color: black;
+    }
+    
+    header{
+        background: none;
+        overflow: hidden;
+       
+    }
+    
+    .watch{
+        width: 70%;
+        padding-top: 40px;
+        margin-left: 30px;
+    }
+    
+    
+    #main{
+        background-color: #1193d4;
+        margin: 0;
+        color: black;
+    }
+    h1{
+        font-size: 35px;
+        text-align: center;
+        color: white;
+    }
+    
+    .wave{
+        display:none;
+    }
+    
+    #video {
+    background:none;
+    
+}
+   .btn-lg{
+    margin-left: 28%;
+} 
+    #hero{
+        margin-top: 30px;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    
+    #video h2{
+    font-size: 35px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color:white;
+}
+
+    
