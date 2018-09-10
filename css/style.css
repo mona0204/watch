@@ -210,9 +210,19 @@ hr{
  screenshot
 -----------------------------------*/
 #run img{
-       width: 95%;
-        padding: 1% 4%;
+    width: 95%;
+    margin: 2px;
+     
+    
 }
+#run{
+    
+    
+}
+
+
+
+
 
 /*---------------------------------
  media screen
