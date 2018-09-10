@@ -206,6 +206,13 @@ hr{
        background: rgba(0, 0, 0, 0) linear-gradient(1deg, transparent 53%, #1193d4 96%) repeat scroll 0 0;
     opacity: 0.9;
 }
+/*---------------------------------
+ screenshot
+-----------------------------------*/
+#run img{
+       width: 95%;
+        padding: 1% 4%;
+}
 
 /*---------------------------------
  media screen
@@ -253,7 +260,8 @@ hr{
     }
     
     .wave{
-        display:none;
+         height: 223px;                                                                         
+        background-image: url(../images/home-two-work-mockup.png);
     }
     
     #video {
